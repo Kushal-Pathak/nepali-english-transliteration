@@ -27,4 +27,5 @@ It uses a mapping of words and letters to transliterate the text.
 This program is not 100% accurate. Some words may be transliterated wrong.  
 It can be improved by adding more mappings in `mapping.json`.
 
----
+## Architecture Diagram
+![Architecture Diagram](./Architecture-Diagram.png)
