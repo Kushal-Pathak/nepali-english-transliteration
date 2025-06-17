@@ -1,7 +1,7 @@
 import json
 import re
 
-with open('mapper.json', 'r', encoding='utf-8') as f:
+with open('mapping.json', 'r', encoding='utf-8') as f:
     mapping = json.load(f)
     
 def get_words(sentence):
