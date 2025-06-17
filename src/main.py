@@ -65,7 +65,7 @@ while True:
     if input_str.strip().lower() == "quit" or input_str.strip() == "":
         break
     output = convert(input_str)
-    print(output["devnagari"]) 
-    print(output["roman_tokens"])    
-    print(output["devnagari_tokens"])    
+    print("->",output["devnagari"]) 
+    #print(output["roman_tokens"])    
+    #print(output["devnagari_tokens"])    
        
